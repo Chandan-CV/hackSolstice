@@ -1,0 +1,5 @@
+<div class="flex items-center text-white flex-col">
+    <p class="text-4xl text-white font-mono font-bold tracking-widest mt-20 mb-10">About us</p>
+
+    <p class=" text-2xl p-20 text-center tracking-wider font-light leading-relaxed max-sm:p-5">Welcome to Hack Solstice 2023, the premier hackathon event of Manipal Institute of Technology - Bangalore, as part of the first ever Tech fest, Solstice 2023. Our mission is to bring together the brightest minds in the tech community and challenge them to solve real-world problems in innovative ways. Whether you're a seasoned hacker or a newcomer to the world of coding, Hack Solstice 2023 is the perfect platform to learn, grow, and showcase your skills. Over the course of two days, participants will have the opportunity to work on cutting-edge technology and collaborate with like-minded individuals from diverse backgrounds. Join us for an unforgettable experience of coding, creating, and connecting with fellow tech enthusiasts! </p>
+</div> 
