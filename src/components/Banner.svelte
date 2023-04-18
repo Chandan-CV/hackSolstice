@@ -3,7 +3,7 @@
 	// import downarrow from "../../assets/down-arrow.svg"
 	import { browser } from '$app/environment';
 	import { onMount } from 'svelte';
-	import Hack from '../assets/hackimage.png';
+	import Hack from '../assets/hackimage2.webp';
 	const endTime = 1682652600000;
 	let dLeft = '-',
 		hLeft = '-',
@@ -50,13 +50,13 @@
 </svelte:head>
 
 <div id="banner-inner-contain" class=" -z-[7]">
-	<div class=" h-screen w-screen bg-opacity-0 flex justify-center items-center z-[7]">
+	<div class=" h-screen w-full bg-opacity-0 flex justify-center items-center z-[7]">
 		<div id="banner-img-container z-[7]" class="">
-			<div class="align-middle mt-32">
+			<div class="align-middle flex flex-col mt-32">
 				<img
-					src={Hack}
-					alt="hack"
-					class="absolute h-[450px] z-20 right-[10vw] countFadeIn -top-2"
+				src={Hack}
+				alt="hack"
+				class="absolute z-20 countFadeIn max-w-[220px] w-[27vw] mr-10 max-sm:mt-20 self-end"
 				/>
 				<svg
 					width="815"
@@ -122,7 +122,7 @@
 					<p class="text-white text-3xl m-10">April 29 - 30</p>
 					<div
 						class="apply-button"
-						data-hackathon-slug="TECH-SOLSTICE-HACKATHON"
+						data-hackathon-slug="hack-solstice"
 						data-button-theme="dark"
 						style="height: 44px; width: 312px"
 					/>
