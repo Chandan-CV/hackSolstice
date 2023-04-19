@@ -45,9 +45,8 @@
 	}
 </script>
 
-<svelte:head>
-	<script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
-</svelte:head>
+	{ @html '<script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>'}
+
 
 <div id="banner-inner-contain" class=" -z-[7]">
 	<div class=" h-screen w-full bg-opacity-0 flex justify-center items-center z-[7]">
