@@ -43,9 +43,18 @@
 				.className.replaceAll('hidden', '');
 		});
 	}
+	onMount(()=>{
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+	};
+	});
 </script>
 
-	{ @html '<script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>'}
 
 
 <div id="banner-inner-contain" class=" -z-[7]">
