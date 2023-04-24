@@ -27,7 +27,7 @@
 		<Banner />
 	</div>
 	<div class="flex w-full flex-col items-center text-white cursor-pointer">
-		<div class="bg-gradient-to-tr from-[#3d1f32] via-[#7f3365] to-[#3d1f32] p-6 rounded-md">
+		<div class="bg-gradient-to-tr from-[#3d1f32] via-[#7f3365] to-[#3d1f32] p-6 rounded-md mt-52">
 			<a
 				class="self-center text-2xl"
 				href="https://docs.google.com/forms/d/e/1FAIpQLSemckZEYbDFoMMtN5Ou62L9G3i_yhKr3thSbXEcNcT8NXTiLw/viewform?usp=sf_link"

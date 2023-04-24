@@ -57,7 +57,7 @@
 
 
 
-<div id="banner-inner-contain" class=" -z-[7]">
+<div id="banner-inner-contain" class="h-screen  -z-[7]">
 	<div class=" h-screen w-full bg-opacity-0 flex justify-center items-center z-[7]">
 		<div id="banner-img-container z-[7]" class="">
 			<div class="align-middle flex flex-col mt-32">
