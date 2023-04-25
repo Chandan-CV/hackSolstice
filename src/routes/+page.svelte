@@ -12,8 +12,10 @@
 	import Faq from '../components/FAQ.svelte';
 	import Contact from '../components/Contact.svelte';
 	import Footer from '../components/footer.svelte';
-
+	import {inject} from '@vercel/analytics';
+	import {dev} from '$app/environment';
 	// @ts-ignore
+	inject({mode: dev ? 'development' : 'production'})
 </script>
 
 <title> Hack Solstice 23 </title>
